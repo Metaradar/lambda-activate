@@ -1,4 +1,4 @@
-// metaradar.io | Activity Lambda function
+// metaradar.io | Activate Lambda function
 // This file is part of the metardar.io project.
 // Author: Ralph Kuepper
 // Contact: info@metaradar.io
