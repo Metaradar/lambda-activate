@@ -29,6 +29,12 @@ exports.handler = async function (event, context) {
         if (res[0][0].network == "polygon") {
             network = "MATIC_MAINNET";
         }
+        else if (res[0][0].network == "optimism") {
+            network = "OPT_MAINNET";
+        }
+        else if (res[0][0].network == "arbitrum") {
+            network = "ARB_MAINNET";
+        }
 
         const options = {
             protocol: 'https:',
